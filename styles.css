@@ -1,0 +1,172 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.heading {
+  text-align: center;
+}
+
+.instrucciones {
+  font-size: 25px;
+  position: absolute;
+  top: 800px;
+  left: 80px;
+}
+
+.encriptator {
+  position: relative;
+  width: 500px;
+  height: 1600px;
+  margin: 100px auto;
+}
+
+.input {
+  background-color: #e5e5e5;
+  border: none;
+  font-size: 3rem;
+  max-width: 100%;
+  max-height: 30%;
+  position: absolute;
+  top: 200px;
+}
+.input:focus {
+  outline: none !important;
+}
+
+.output {
+  background-color: #fff;
+  border-radius: 32px;
+  width: 400px;
+  height: 944px;
+  top: 40px;
+  left: 650px;
+  position: absolute;
+}
+
+.output img {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  top: 250px;
+  left: 35px;
+}
+
+.output h1 {
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  left: 30px;
+}
+.output p {
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  left: 30px;
+}
+
+.actions {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  top: 950px;
+}
+/*estilo para los botones*/
+.actions .crypt {
+  background-color: #0a3871;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 100px;
+  font-size: 1rem;
+}
+.actions .crypt:hover {
+  cursor: pointer;
+  background-color: #215da7;
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+
+.actions .decrypt {
+  background-color: #d8dfe8;
+  border-radius: 5px;
+  padding: 15px 100px;
+  font-size: 1rem;
+}
+.actions .decrypt:hover {
+  cursor: pointer;
+  background-color: #b9c1ca;
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+
+.btn-copy {
+  background-color: #185db8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 100px;
+  font-size: 1rem;
+  position: absolute;
+  top: 850px;
+  left: 70px;
+}
+
+.btn-copy:hover {
+  cursor: pointer;
+  background-color: #2379db;
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+
+.output #output-text {
+  font-size: 30px;
+  position: absolute;
+  top: 100px !important;
+  inline-size: 350px;
+  text-align: left !important;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1100px) {
+    .instrucciones {
+        
+        top: 800px;
+        left: 55px;
+      }  
+  .output {
+    width: 500px;
+    height: 700px;
+    top: 1150px;
+    left: -20px;
+    position: absolute;
+  }
+  .output img {
+    width: 336px;
+    height: 304px;
+    top: 100px;
+    left: 70px;
+  }
+  .output h1 {
+    text-align: center;
+    top: 450px;
+    left: 30px;
+  }
+  .output p {
+    position: absolute;
+    text-align: center;
+    top: 430px;
+    left: 80px;
+  }
+  
+
+
+  
+
+  .actions {
+    display: grid;
+    left: 80px;
+  }
+
+  .btn-copy {
+    top: 500px;
+    left:130px;
+  }
+}
